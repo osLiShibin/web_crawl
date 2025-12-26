@@ -1,0 +1,31 @@
+2025-12-26T09:33:04.899+08:00  INFO 25208 --- [web-crawl] [main] me.lbb.crawl.BootApplicationKt           : Starting BootApplicationKt using Java 21.0.1 with PID 25208 (D:\VscProjects\web_crawl\build\classes\kotlin\main started by lbb in D:\VscProjects\web_crawl)
+2025-12-26T09:33:04.903+08:00  INFO 25208 --- [web-crawl] [main] me.lbb.crawl.BootApplicationKt           : No active profile set, falling back to 1 default profile: "default"
+2025-12-26T09:33:05.386+08:00  INFO 25208 --- [web-crawl] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-26T09:33:05.426+08:00  INFO 25208 --- [web-crawl] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+2025-12-26T09:33:05.790+08:00  INFO 25208 --- [web-crawl] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-12-26T09:33:05.801+08:00  INFO 25208 --- [web-crawl] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-26T09:33:05.801+08:00  INFO 25208 --- [web-crawl] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-12-26T09:33:05.835+08:00  INFO 25208 --- [web-crawl] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-26T09:33:05.835+08:00  INFO 25208 --- [web-crawl] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 890 ms
+2025-12-26T09:33:05.949+08:00  INFO 25208 --- [web-crawl] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-26T09:33:05.982+08:00  INFO 25208 --- [web-crawl] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-12-26T09:33:06.009+08:00  INFO 25208 --- [web-crawl] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-26T09:33:06.224+08:00  INFO 25208 --- [web-crawl] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-26T09:33:06.233+08:00  WARN 25208 --- [web-crawl] [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [hibernate.temp.use_jdbc_metadata_defaults], use [hibernate.boot.allow_jdbc_metadata_access] instead
+2025-12-26T09:33:06.243+08:00  WARN 25208 --- [web-crawl] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-26T09:33:06.252+08:00  INFO 25208 --- [web-crawl] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [undefined/unknown]
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: <unknown>
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-26T09:33:06.728+08:00  INFO 25208 --- [web-crawl] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-26T09:33:06.730+08:00  INFO 25208 --- [web-crawl] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-26T09:33:07.119+08:00  WARN 25208 --- [web-crawl] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-26T09:33:07.394+08:00  INFO 25208 --- [web-crawl] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-12-26T09:33:07.398+08:00  INFO 25208 --- [web-crawl] [main] me.lbb.crawl.BootApplicationKt           : Started BootApplicationKt in 2.934 seconds (process running for 3.736)
+2025-12-26T09:33:12.570+08:00  INFO 25208 --- [web-crawl] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-26T09:33:12.603+08:00  INFO 25208 --- [web-crawl] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-12-26T09:33:12.606+08:00  INFO 25208 --- [web-crawl] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'

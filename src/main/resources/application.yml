@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: web-crawl
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.0.69:3306/newdee?useUnicode=true&serverTimezone=GMT&characterEncoding=utf-8&allowPublicKeyRetrieval=true&useSSL=false
+    username: newdee
+    password: "Newdee@2025"
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        temp:
+          use_jdbc_metadata_defaults: false
+        dialect: org.hibernate.dialect.MySQLDialect
+    database-platform: org.hibernate.dialect.MySQLDialect
+
+logging:
+  file:
+    name: logs/${spring.application.name}.log
+    path: ./
+  level:
+    root: info
+    # 关闭不必要的日志
+    # 开发、调试需要的日志
+    me.csy: info
+    org.springframework.security: info
+    org.springframework.web: info
+    org.hibernate: info
+
+crawl:
+  chromedriver:
+    path: C:\tools\chromedriver-win64\chromedriver.exe
+  geckodriver:
+    path: C:\tools\geckodriver\geckodriver.exe
